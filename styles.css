@@ -28,7 +28,23 @@ header h1{
 }
 
 nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
 
+nav ul li{
+    margin: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 .estilo {

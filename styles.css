@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(245, 183, 113);
     font-family: Arial, sans-serif;
     line-height: 1.5;
 }
@@ -18,9 +18,17 @@ body {
 }
 
 header{
-    background-color: brown;
-    color: aqua;
+    background-color: rgb(255, 45, 45);
+    color: rgb(40, 80, 255);
     padding: 10px 0;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav ul{
+
 }
 
 .estilo {

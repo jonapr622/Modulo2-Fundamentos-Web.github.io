@@ -7,19 +7,22 @@
 }
 
 body {
-    background-color: rgb(14, 153, 1);
+    background-color: rgb(252, 172, 120);
     font-family: Arial, sans-serif;
     line-height: 1.5;
 }
 
 .contenedor{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    background-color: rgb(253, 197, 159);
 }
 
 header{
-    background-color: rgb(255, 139, 45);
-    color: rgb(40, 80, 255);
+    background-image: url(https://alehousegj.com/wp-content/uploads/2024/03/pizza_beer.jpg);
+    background-size: cover;
+    height: 400px;
+    color: rgb(255, 72, 72);
     padding: 10px 0;
 }
 
@@ -50,8 +53,32 @@ nav ul li a:hover {
 .estilo {
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    margin: 20px 5px;
+    margin: 20px 0;
+    text-align: center;
     border-radius: 10px;
+}
+
+.historia-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.historia-grid h2{
+    grid-column: 2/3;
+}
+
+.historia-grid img{
+    grid-column: 1/2;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.historia-grid p{
+    grid-column: 2/4;
+    text-align: justify;
 }
 
 .cta-button{
@@ -76,27 +103,56 @@ background-color: brown;
     margin-top: 15px;
 }
 
-.card{
+.menu-card{
     background-color: white;
     border-radius: 10px;
     width: 250px;
     margin: 15px;
     text-align: center;
-    transition: transforme o.3s ease;
+    box-shadow:0px 0px 2px black;
+    transition: transform 0.3s ease;
+
 }
 
-.card:hover{
-    transform: translatey(-8px);
-    background-color: red;
+.menu-card:hover{
+    transform: scale(1.05);
+    box-shadow:5px 5px 10px black;
 }
-.card img{
+.menu-card img{
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+.personal-contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.personal-card{
+    background-color: rgb(240, 255, 253);
+    border-radius: 15px;
+    box-shadow:0px 0px 2px black;
+    transition: transform 0.3s ease;
+}
+
+.personal-card:hover{
+    transform: scale(1.05);
+    box-shadow:5px 5px 10px black;
+}
+
+.personal-card img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+
+}
+
+
+
 footer{
-    background-color: rgb(255, 45, 45);
+    background-color: rgb(253, 197, 159);
     text-align: center;
 }

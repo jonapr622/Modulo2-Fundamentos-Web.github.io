@@ -9,20 +9,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    
     <header>
-        <div class="contenedor">
-            <h1>Pizzeria</h1>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Nuestra Historia</a></li>
-                    <li><a href="">Menú</a></li>
-                    <li><a href="">Personal</a></li>
-                    <li><a href="">Redes Sociales</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Pizzeria</h1>
     </header>
+    <div class="contenedor">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Nuestra Historia</a></li>
+                <li><a href="">Menú</a></li>
+                <li><a href="">Personal</a></li>
+                <li><a href="">Redes Sociales</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
         <section class="estilo" id="home">
             <h2>Bienvenido a la mejor pizzeria de México</h2>
@@ -31,15 +33,20 @@
         </section>
         
         <section class="estilo" id="nuestra-historia">
-            <h2>Nuestra Historia</h2>
-            <p>Llevamos más de 10 años haciendo felices a miles de personas</p>
-        </section>
+            <div class="historia-grid">
+                <h2>Nuestra Historia</h2>
+                <img src="https://laverdaderahistoriade.com/wp-content/uploads/2023/06/La-verdadera-historia-de-la-Pizzeria-de-Guanajuato.jpg" alt="Imagen que muestra la historia de nuestra pizzería.">
+                <p>Nació de una pasión familiar por la cocina y un profundo amor por la pizza artesanal. Fundada en 2012, en un rincón del centro de la ciudad, este acogedor restaurante combina la autenticidad de las recetas italianas con toques únicos e ingredientes frescos de la región mexicana. <br></br>
+                Con una masa madre que ha sido cuidadosamente fermentada por más de 10 años, cada pizza es el resultado de un proceso lento y meticuloso que da como resultado una base crujiente por fuera y esponjosa por dentro.<br></br>
+                Creemos que la pizza es más que una comida; es una experiencia que reúne a las personas alrededor de la mesa. Desde su apertura, hemos sido un lugar de encuentro para amigos, familias y amantes de la buena comida que buscan disfrutar de sabores auténticos en un ambiente relajado y acogedor.</p>
+            </div>
+            </section>
         
         <section class="estilo" id="menu">
             <h2>Menú</h2>
             <p>Todas nuestras pizzas</p>
             <div class="menu-comtenedor">
-                <div class="card">
+                <div class="menu-card">
                     <img src="https://th.bing.com/th/id/OIP.l447BVzBm-tBSGTXq36QKgHaGy?w=220&h=201&c=7&r=0&o=5&pid=1.7" alt="Imagen de pizza tradicional">
                     <h3>Pizza tradicional</h3>
                     <p>$90</p>
@@ -49,11 +56,37 @@
         
         <section class="estilo" id="personal">
             <h2>Conoce a nuestros empleados</h2>
-            <p>Chefs</p>
+            <div class="personal-contenedor">
+                <div class="personal-card">
+                    <img src="https://media.istockphoto.com/photos/old-woman-with-gray-hair-sitting-and-smiling-picture-id1319538838?k=20&m=1319538838&s=612x612&w=0&h=vBP8ZgAoSnSA893vFR55oPBD00ZJ4iSK8ES2NBvpAfs=" alt="Foto de Doña Luz">
+                    <h3>Doña Luz</h3>
+                    <p>La cocinera proncipal, encargada de darle sabor a tu comida.</p>
+                </div>
+                <div class="personal-card">
+                    <img src="https://th.bing.com/th/id/R.473a14ccf543ebd118e8f116d0a59dfe?rik=LRYj62XJkJTG%2fA&riu=http%3a%2f%2f4.bp.blogspot.com%2f_aEv6w6VKmzk%2fTSv6ursM5SI%2fAAAAAAAAABI%2f2xwTZWp_Gh8%2fw1200-h630-p-k-no-nu%2fSDC10257.JPG&ehk=caCY3ci0hklHD9t9Y9LT8rsnwUK5MHkwn5Yy3g8qn3A%3d&risl=&pid=ImgRaw&r=0" alt="Foto de Pedro">
+                    <h3>Pedro</h3>
+                    <p>Capitán de meseros, encargado de que te sientas como en casa mientras estan en nuestro restaurante.</p>
+                </div>
+                <div class="personal-card">
+                    <img src="https://img.freepik.com/foto-gratis/joven-repartidora-pizzas-sobre-fondo-blanco-aislado-gesto-pulgar-arriba-sonriente_1368-165206.jpg?size=626&ext=jpg" alt="Foto de Yoana">
+                    <h3>Yoana</h3>
+                    <p>Repartidora, encargada de llevarte tu comida hasta tu casa.</p>
+                </div>
+                <div class="personal-card">
+                    <img src="https://iv1.lisimg.com/image/26532324/736full-mclovin.jpg" alt="Foto de Luis">
+                    <h3>Luis</h3>
+                    <p>Cajero, encargado de que no te cobren ni un peso de más.</p>
+                </div>
+                <div class="personal-card">
+                    <img src="https://partner.microsoft.com/-/media/mssc/mpn/partner/img_blade7_feedunit1_d_735x792.ashx" alt="Foto de Maria">
+                    <h3>Maria</h3>
+                    <p>Gerente, ella puede atender tus problemas.</p>
+                </div>
+            </div>
         </section>
         
         <section class="estilo" id="redes-sociales">
-            <h2>Siguenos en muestras Redes</h2>
+            <h2>Siguenos en nuestras Redes</h2>
             <p>Instagram</p>
             <p>Facebook</p>
         </section>

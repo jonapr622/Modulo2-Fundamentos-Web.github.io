@@ -22,6 +22,7 @@ header{
     background-image: url(https://alehousegj.com/wp-content/uploads/2024/03/pizza_beer.jpg);
     background-size: cover;
     height: 400px;
+    font-family: cursive;
     color: rgb(255, 72, 72);
     padding: 10px 0;
 }
@@ -53,17 +54,17 @@ nav ul li a:hover {
 .hero{
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 10px;
     text-align: center;
     border-radius: 10px;
 }
 
 .estilo {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 0px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .historia-grid{
@@ -115,6 +116,7 @@ background-color: brown;
     background-color: white;
     border-radius: 10px;
     width: 250px;
+    height: 290px;
     margin: 15px;
     text-align: center;
     box-shadow:0px 0px 2px black;
@@ -126,8 +128,10 @@ background-color: brown;
     transform: scale(1.05);
     box-shadow:5px 5px 10px black;
 }
+
 .menu-card img{
-    width: 100%;
+    width: 75%;
+    height: 75%;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -158,7 +162,9 @@ background-color: brown;
 
 }
 
-
+#redes-sociales p{
+    font-size:x-large;
+}
 
 footer{
     background-color: rgb(253, 197, 159);
@@ -167,48 +173,87 @@ footer{
 
 
 @media (max-width: 768px) {
+body {
+    background-color: rgb(58, 55, 54);
+}
+
 .contenedor {
     width: 90%;
 }
-
 nav ul {
+    background-color: rgb(122, 116, 116);
     flex-direction: column;
     align-items: center;
 }
-
+nav ul li a{
+    color: white;
+}
 .historia-grid{
     grid-template-columns: 1fr;
     text-align: center;
 }
-
 .historia-grid img, .historia-grid p, .historia-grid h2{
     grid-column: 1/2;
     width: 100%;
 }
-
-.
-
 .personal-contenedor{
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.pie-de-pagina{
+    background-color: rgb(122, 116, 116);
 }
 }
 
 @media (max-width: 480px){
+body{
+    background-color: white;
+}
+nav ul{
+    background-color: whitesmoke;
+}
+nav ul li a{
+    color:black;
+    font-size: 1.5em;
+}
+.estilo{
+    background-color: black;
+    color:white;
+}
+.hero{
+    background-color: black;
+    color: white;
+}
 .hero h2{
     font-size: 1.7em;
 }
-
 .hero p{
-    font-size: 1em;
+    font-size: 1.2em;
+}
+.menu-card{
+    color: black;
+    box-shadow: 5px 5px 10px rgb(255, 0, 0);
+}
+.personal-card{
+    color: black;
+    box-shadow: 5px 5px 10px white;
 }
 .cta-button{
     padding: 5px 1px;
-    font-size: .85em;
+    font-size: 1.25em;
+    font-weight: 750;
+    background-color: white;
+    color: black;
+}
+.pie-de-pagina{
+    background-color: whitesmoke;
+    font-size: 1.25em;
+    color: black;
+}
 }
 
+@media (max-width: 357px){
 .pie-de-pagina{
-    background-color: brown;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 }
 
